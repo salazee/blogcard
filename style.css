@@ -1,0 +1,78 @@
+@import url(https://fonts.google.com/share?selection.family=Figtree:ital,wght@0,300..900;1,300..900);*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(45, 80%, 57%)
+    
+}
+.card{
+    background-color: white;
+    margin: 200px 500px 100px;
+    border: 1px solid black;
+    border-radius: 5%;
+    align-items: center;
+    max-width: 350px;
+    box-shadow: 5px 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.minicard{
+    margin: 25px;
+}
+button{
+    background-color: rgb(255, 243, 17);
+    color:#000;
+    margin: 0px 220px 0px 20px;
+    border: 0px;
+    padding: 1px;
+    text-align: center;
+    
+
+}
+.mini{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:17px;
+}
+h2{
+padding: 10px 0px;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h2,a:hover{
+    color: rgb(255, 243, 17);
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.wording{
+    margin:5%;
+}
+@media (max-width) {
+    .card{
+       
+        margin:100px 250px 50px;
+        max-width: 180px;
+    }
+    button{
+        margin: 0px 110px 0px 10px;
+    }
+    .minicard{
+        width: 80%;
+        border: 1px solid green;
+    }
+    .set{
+        flex-direction: row;
+    }
+}
